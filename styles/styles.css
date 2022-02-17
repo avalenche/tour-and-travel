@@ -114,8 +114,6 @@ svg {
 
 /*** Content ***/ 
 
-/*** Header **/
-
 body {
   margin: 35px auto;
   font-family: "Inter", sans-serif;
@@ -150,7 +148,25 @@ body {
   background-color: #fff;
 }
 
+.h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.25;
+
+  color: #202336;
+
+  mix-blend-mode: normal;
+}
+
+/*** Header **/
+
+/** Navigation **/
+
 .navigation {
+  margin-bottom: 72px;
+
   display: flex;
   justify-content: space-between;
   
@@ -210,3 +226,86 @@ body {
   padding: 8px 36px;
 }
 
+/**Header Finder**/
+
+.explore-flex {
+  display: flex;
+
+  margin-bottom: 300px;
+}
+
+.explore {
+  width: 470px;
+  
+  margin-right: 35px;
+}
+
+.explore-img img {
+  min-width: 300px;
+  width: 100%;
+}
+
+.h1 {
+  margin-bottom: 74px;
+}
+
+.form > .h2 {
+  position: relative;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 71px;
+  color:#202336;
+}
+
+.form > .h2::after {
+  position: absolute;
+  left: 0;
+  top: 48px;
+  content: "";
+  width: 32px;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #202336;
+  
+}
+
+.form-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.form-group {
+  
+}
+
+.select {
+  width: 220px;
+  height: 52px; 
+  line-height: 2.13;
+
+  color: #4A4C53;
+
+  padding: 0px 20px;
+
+  border: 0.8px solid #AFB0B9;
+  border-radius: 6px;
+}
+.select-mright {
+  margin-right: 30px;
+}
+
+.form-flex-1 {
+  margin-bottom: 35px;
+}
+
+.form-flex-2 {
+  margin-bottom: 50px;
+}
+
+.form .btn {
+  width: 180px;
+  height: 52px;
+}
