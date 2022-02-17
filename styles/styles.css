@@ -29,6 +29,12 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 }
 */
 
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -106,6 +112,101 @@ svg {
   transition: fill 0.3s ease;
 }
 
-
 /*** Content ***/ 
+
+/*** Header **/
+
+body {
+  margin: 35px auto;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3;
+
+  color: #000;
+  background-color: #FFF;
+
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding:8px 46px;
+ 
+  color: #FFF;
+  
+  background-color: #FB8F1D;
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  color:#FB8F1D;
+
+  background-color: #fff;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navigation-logo {
+  position: relative;
+  margin-right: 35px;
+}
+
+.navigation-logo:hover {
+  opacity: 0.6;
+}
+
+.navigation-right {
+  margin-top: 10px;
+}
+
+.navigation-right-nav {
+  display: flex;
+}
+
+.navigation-right-nav-list {
+  display: flex;
+}
+
+.navigation-right-nav-list li {
+  margin-right: 35px;
+
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #B8BECD;
+}
+
+.navigation-right-nav-list li:first-child {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #202336;
+}
+
+.navigation-right-nav-list li a:hover {
+  text-decoration: underline;
+}
+
+.navigation-right-nav-button {
+  display: flex;
+}
+
+.navigation-right-nav-button-log {
+  margin-right: 18px;
+}
+
+.navigation-right-nav-button-reg .btn {
+  padding: 8px 36px;
+}
 
