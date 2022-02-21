@@ -127,12 +127,15 @@ body {
 }
 
 .container {
-  max-width: 1220px;
+  max-width: 1240px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .btn {
+  display: inline-block;
+
   padding:8px 46px;
  
   color: #FFF;
@@ -156,8 +159,6 @@ body {
   line-height: 1.25;
 
   color: #202336;
-
-  mix-blend-mode: normal;
 }
 
 /*** Header **/
@@ -173,7 +174,6 @@ body {
 }
 
 .navigation-logo {
-  position: relative;
   margin-right: 35px;
 }
 
@@ -191,6 +191,7 @@ body {
 
 .navigation-right-nav-list {
   display: flex;
+  align-items: center;
 }
 
 .navigation-right-nav-list li {
@@ -235,15 +236,32 @@ body {
 }
 
 .explore {
+  position: relative;
+
   width: 470px;
   
   margin-right: 35px;
 }
 
-.explore-img img {
-  min-width: 300px;
-  width: 100%;
+.explore-img {
+  position: relative;
+  width: 687px;
 }
+
+.explore-img-turist {
+  min-width: 221px;
+  width: 100%;
+  position: absolute;
+  right: -85px;
+
+}
+
+.explore-img .circle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 
 .h1 {
   margin-bottom: 74px;
@@ -275,12 +293,6 @@ body {
   justify-content: space-between;
 }
 
-
-
-.form-group {
-  
-}
-
 .select {
   width: 220px;
   height: 52px; 
@@ -309,3 +321,70 @@ body {
   width: 180px;
   height: 52px;
 }
+
+.explore .plus {
+  position: absolute;
+  top: 30px;
+  right: -15px;
+}
+
+.explore .circle {
+  position: absolute;
+  top: 280px;
+  left: -110px;
+  transform: scale(1.3);
+}
+
+/****Section-2****/
+
+.section-2 {
+  display: flex;
+  padding: 0 30px 0 10px;
+  justify-content: space-between;
+}
+
+.section-2-flex {
+  position: relative;
+  width: 612px;
+  margin-right: 100px;
+}
+
+.section-2-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.section-2-section {
+  width: 470px;
+}
+
+.h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+
+  color: #000000;
+}
+
+.section-2-section .h2 {
+  margin-bottom: 20px;
+  }
+
+ .section-2-section p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+
+  width: 470px;
+  margin-bottom: 35px;
+
+  color: #7D7987;
+ }
+
