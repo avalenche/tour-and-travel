@@ -408,9 +408,8 @@ body {
 /***Section3****/
 
 
-/****Section4***/
 
-/****Section-2****/
+/****Section4***/
 
 .section-4 {
   display: flex;
@@ -486,4 +485,111 @@ body {
   top: 20px;
   right: -20px;
   transform: rotateZ(14deg) scale(0.8);
+}
+
+/***Section-3***/
+
+.section-3-title {
+  padding: 0 50px;
+  flex-wrap: wrap;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-3-title {
+  margin-bottom: 56px;
+}
+
+.section-3-title-view {
+ position: relative;
+}
+.section-3-title-view-circle {
+  position: absolute;
+  top: -10px;
+  left: -90px;
+}
+
+.section-3-title .h2 {
+  margin-right: 10px ;
+}
+
+
+.section-3-title-all {
+ color: #FB8F1D;
+ font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+}
+
+.section-3-title-all:hover {
+  opacity: 0.6;
+  color: #FB8F1D;
+}
+
+.section-3-flex {
+  padding: 0px 25px 0px 50px;
+  margin-bottom: 235px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+
+  position: relative;
+}
+
+.section-3-flex-plus {
+  position: absolute;
+  transform: rotateZ(7deg);
+  top: 60%;
+  left: -30px;
+}
+.section-3-flex-circle {
+  position: absolute;
+  left: 45%;
+  bottom: -40px;
+}
+
+.section-3-flex-a {
+  margin: 0 25px 25px 0px;
+  position: relative;
+}
+
+
+.section-3-flex-a img{
+  width: 261px;
+  height: 337px;
+
+  
+  border-radius: 8px;
+}
+
+.section-3-a-signature {
+  width: 120px;
+  height: 56px;
+
+  background: #fff;
+
+  border-radius: 0 6px 0 6px;
+
+  position: absolute;
+  left: -1;
+  bottom: -1;
+}
+
+.section-3-a-signature p{
+  padding-top: 10px;
+
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  color: #042521;
+}
+.section-3-a-signature span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #80918E;
 }
