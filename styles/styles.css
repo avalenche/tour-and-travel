@@ -407,88 +407,6 @@ body {
 
 /***Section3****/
 
-
-
-/****Section4***/
-
-.section-4 {
-  display: flex;
-  justify-content: space-between;
-
-  padding: 0 50px;
-  margin-bottom: 250px;
-}
-
-.section-4-flex {
-  position: relative;
-  width: 600px;
-}
-
-.section-4-img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  min-width: 0;
-}
-
-.section-4-section {
-  width: 404px;
-  margin-top: 150px;
-
-  position: relative;
-}
-
-.h2 {
-  font-family: "Playfair Display", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 50px;
-
-  color: #000000;
-}
-
-.section-4-section .h2 {
-  margin-bottom: 20px;
-  }
-
- .section-4-section p {
-  font-family: "Mulish", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 30px;
-
-  width: 404px;
-  margin-bottom: 35px;
-
-  color: #7D7987;
- }
-
-.section-4-section-plus {
-  position: absolute;
-  bottom: 5px;
-  left: 420px;
-
-  transform: rotateZ(14deg);
- }
-
-.section-4-section-circle {
-  position: absolute;
-  top: -45px;
-  left: 45px;
- }
-
-.section-4-flex-plus {
-  position: absolute;
-  top: 20px;
-  right: -20px;
-  transform: rotateZ(14deg) scale(0.8);
-}
-
-/***Section-3***/
-
 .section-3-title {
   padding: 0 50px;
   flex-wrap: wrap;
@@ -593,3 +511,195 @@ body {
   line-height: 24px;
   color: #80918E;
 }
+
+/****Section4***/
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 50px;
+  margin-bottom: 250px;
+}
+
+.section-4-flex {
+  position: relative;
+  width: 600px;
+}
+
+.section-4-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.section-4-section {
+  width: 404px;
+  margin-top: 150px;
+
+  position: relative;
+}
+
+.h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+
+  color: #000000;
+}
+
+.section-4-section .h2 {
+  margin-bottom: 20px;
+  }
+
+ .section-4-section p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+
+  width: 404px;
+  margin-bottom: 35px;
+
+  color: #7D7987;
+ }
+
+.section-4-section-plus {
+  position: absolute;
+  bottom: 5px;
+  left: 420px;
+
+  transform: rotateZ(14deg);
+ }
+
+.section-4-section-circle {
+  position: absolute;
+  top: -45px;
+  left: 45px;
+ }
+
+.section-4-flex-plus {
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  transform: rotateZ(14deg) scale(0.8);
+}
+
+/***Section-5***/
+
+.section-5 {
+  padding: 0 50px;
+  margin-bottom: 250px;
+}
+
+.section-5 > .h2 {
+  margin-bottom: 45px;
+}
+
+.section-5-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-5-flex-section {
+  margin: 100px 25px 25px 0;
+
+  width: 450px;
+}
+
+.section-5-flex-section-star ul li {
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 30px;
+}
+
+.section-5-flex-section-figure {
+  font-family: "Mulish", sans-serif;
+ font-size: 24px;
+ line-height: 36px;
+}
+
+.section-5-flex-section-figure blockquote {
+  margin-bottom: 30px;
+}
+
+.section-5-flex-section-figure-figcaption h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+}
+
+.section-5-flex-section-figure-figcaption p {
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 48px;
+
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.section-5-flex-photo {
+  position: relative;
+}
+
+.section-5-flex-photo-photo {
+  position: relative;
+  z-index: 2;
+
+  border-radius: 14px;
+  background: #C4C4C4;
+}
+
+.section-5-flex-photo-scroll {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  right: 0;
+
+  width: 132px;
+  height: 60px;
+
+  border-radius: 16px 0px 0px 0px;
+  background-color: #FFF;
+
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.section-5-flex-photo-scroll button {
+  background: none;
+  border: none;
+  align-items: flex-end;
+}
+
+.section-5-flex-photo-scroll button:first-child {
+  margin-right: 20px;
+}
+
+.section-5-flex-photo-scroll button:hover {
+  opacity: 0.5;
+}
+
+.section-5-flex-photo-scroll-plus {
+  position: absolute;
+  left: -7px;
+  bottom: -7px;
+  transform: rotate(8deg) scale(1.5);
+  z-index: 3;
+}
+
+.section-5-flex-photo-scroll-circle {
+  position: absolute;
+  right: -6px;
+  top: -6px;
+  transform: scale(1.6);
+  z-index: 1;
+}
+
