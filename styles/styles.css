@@ -407,6 +407,10 @@ body {
 
 /***Section3****/
 
+.section-3 {
+  min-width: 650px;
+}
+
 .section-3-title {
   padding: 0 50px;
   flex-wrap: wrap;
@@ -515,6 +519,7 @@ body {
 /****Section4***/
 
 .section-4 {
+  
   display: flex;
   justify-content: space-between;
 
@@ -593,6 +598,7 @@ body {
 /***Section-5***/
 
 .section-5 {
+  
   padding: 0 50px;
   margin-bottom: 250px;
 }
@@ -621,8 +627,10 @@ body {
 
 .section-5-flex-section-figure {
   font-family: "Mulish", sans-serif;
- font-size: 24px;
- line-height: 36px;
+  font-size: 24px;
+  line-height: 36px;
+
+  min-width: 450px;
 }
 
 .section-5-flex-section-figure blockquote {
@@ -701,5 +709,126 @@ body {
   top: -6px;
   transform: scale(1.6);
   z-index: 1;
+}
+
+/***Section-6***/
+
+.section-6 {
+  min-width: 722px;
+  margin-bottom: 270px;
+}
+
+.section-6-title {
+  position: relative;
+
+  padding: 0 50px;
+  margin-bottom: 56px;
+  flex-wrap: wrap;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-6-title-plus {
+  position: absolute;
+  top: -30px;
+  left: 40%;
+  transform: rotateZ(7deg);
+}
+
+.section-6-title .h2 {
+  
+  margin-right: 10px ;
+}
+
+
+.section-6-title-all {
+ color: #FB8F1D;
+ font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+}
+
+.section-6-title-all:hover {
+  opacity: 0.6;
+  color: #FB8F1D;
+}
+
+.section-6-relative {
+  position: relative;
+}
+
+.section-6-relative-circle-1 {
+  position: absolute;
+  left: -55px;
+  top: 55%;  
+}
+
+.section-6-relative-circle-2 {
+  position: absolute;
+  right: 40%;
+  bottom: -30px;
+}
+
+.section-6-stories {
+  
+  padding: 0px 25px 0px 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-6-stories-conteiner {
+  margin: 0 25px 25px 0;
+  width: 261px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-6-stories-conteiner-img {
+  display: block;
+  
+  width: 100%;
+  height: 232px;
+  margin-bottom: 36px;
+
+  border-radius: 8px 8px 0 0;
+
+  object-position: top;
+  object-fit: cover;
+}
+
+.section-6-stories-conteiner > h3 {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+
+  margin-bottom: 13px;
+}
+
+.section-6-stories-conteiner > p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #7D7987;
+
+  margin-bottom: 23px;
+}
+
+.section-6-stories-conteiner > a {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+
+  color: #FB8F1D;
+}
+
+.section-6-stories-conteiner > a:hover {
+  opacity: 0.6;
 }
 
