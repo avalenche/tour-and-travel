@@ -832,3 +832,95 @@ body {
   opacity: 0.6;
 }
 
+/***footer***/
+
+.footer {
+  background:#F9F9FB;
+  color: #848484;
+  font-family: "Mulish", sans-serif;
+}
+
+.back {
+  background-color: #042521;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 50px 80px 50px;
+}
+
+.footer-list-list-1-container {
+  max-width: 340px;
+  margin-right: 25px;
+}
+
+.footer-list-list-1-logo {
+  margin-bottom: 26px;
+}
+
+.footer-list-list-1-p-1 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+
+  margin-bottom: 55px;
+}
+
+.footer-list-list-1-p-2 {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.footer-first-font {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+
+  white-space: nowrap;
+
+  padding-right: 25px;
+}
+
+.footer-first-li {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 60px;
+
+  color: #000000;
+}
+
+.footer-line {
+  margin: 0px 50px 30px 50px;
+  width: auto;
+  height: 0.6px;
+  background: #c4c4c4;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 33px;
+}
+
+.footer-nav a{
+  margin-right: 35px;
+  
+}
+
+.footer-nav a:hover{
+  opacity: 0.4;
+  
+}
+
+.footer-nav a:last-child{
+  margin-right: 0;
+  
+}
+
+.footer-list-hover a:hover {
+
+  text-decoration: underline;
+}
