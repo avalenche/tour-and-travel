@@ -1,5 +1,4 @@
-
-/****** reset styles ***/
+/*** reset styles ***/
 
 *,
 *:before,
@@ -10,14 +9,9 @@
   outline: none;
 }
 
-@import "variables";
 html {
   color: #000;
   background: #FFF
-}
-
-* {
-  tap-highlight-color: transparent !important;
 }
 
 
@@ -55,6 +49,7 @@ table {
 }
 
 fieldset, img {
+  display: inline-block;
   border: 0;
 }
 
@@ -143,6 +138,10 @@ body {
   background-color: #FB8F1D;
   border: 1px solid #FB8F1D;
   border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
@@ -178,7 +177,7 @@ body {
   margin-right: 35px;
 }
 
-.navigation-logo:hover {
+.navigation-logo > a:hover {
   opacity: 0.6;
 }
 
@@ -481,9 +480,10 @@ body {
 
 
 .section-3-flex-a img{
+  display: block;
+
   width: 261px;
   height: 337px;
-
   
   border-radius: 8px;
 }
@@ -497,8 +497,8 @@ body {
   border-radius: 0 6px 0 6px;
 
   position: absolute;
-  left: -1;
-  bottom: -1;
+  left: 0;
+  bottom: 0;
 }
 
 .section-3-a-signature p{
@@ -821,6 +821,7 @@ body {
 }
 
 .section-6-stories-conteiner > a {
+  display: inline-block;
   font-weight: 600;
   font-size: 15px;
   line-height: 28px;
@@ -857,6 +858,10 @@ body {
 
 .footer-list-list-1-logo {
   margin-bottom: 26px;
+}
+
+.footer-list-list-1-logo > a:hover {
+  opacity: 0.6;
 }
 
 .footer-list-list-1-p-1 {
